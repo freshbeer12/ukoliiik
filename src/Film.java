@@ -14,6 +14,7 @@ public class Film {
         this.herci = herci;
     }
 
+
     public String getNazev() {
         return nazev;
     }

@@ -6,11 +6,23 @@ public class Main {
 
 
         System.out.println("Kolik filmů si přeješ zadat do databáze?");
-        int film = sc.nextInt();
+        int[] film = sc.nextInt();
+        int n = film[n] = sc.nextInt();
+        sc.nextLine();
 
-        for (int i = 1; i < film; i++) {
+        Film[] film = new Film("", 0, 0, "");
+
+
+        for (int i = 1; i < n; i++) {
             Film[] arrayFilm = new Film[i];
-            arrayFilm[3] = new Film("", 0, 0, "");
+            arrayFilm[n] = new Film("", 0, 0, "");
+            i++;
+        }
+
+        for (int i = 1; i < n; i++) {
+            Herec[] arrayHerec = new Herec[i];
+            arrayHerec[n] = new Herec("", 0, 0);
+            i++;
         }
 
 

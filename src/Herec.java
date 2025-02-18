@@ -19,6 +19,9 @@ public class Herec {
     public int getNarozeni() {
         return narozeni;
     }
+    public int getHodnoceni() {
+        return hodnoceni;
+    }
 
 
 
